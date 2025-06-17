@@ -1,0 +1,86 @@
+[
+  {
+    "name": "mercury",
+    "radius": 2439.7,
+    "distance": 57910,
+    "orbital_period": 88,
+    "rotation_period": 58.6,
+    "texture": "mercury.jpg",
+    "description": "Mercure est la planète la plus proche du Soleil. Sa surface est rocheuse, grise et criblée de cratères.",
+    "temperature": "430°C (jour), -180°C (nuit)",
+    "moons": 0,
+    "type": "rocheuse"
+  },
+  {
+    "name": "venus",
+    "radius": 6051.8,
+    "distance": 108200,
+    "orbital_period": 224.7,
+    "rotation_period": 243,
+    "texture": "venus.jpg",
+    "description": "Vénus possède une atmosphère dense composée principalement de dioxyde de carbone, ce qui provoque un effet de serre extrême.",
+    "temperature": "465°C",
+    "moons": 0,
+    "type": "rocheuse"
+  },
+  {
+    "name": "earth",
+    "radius": 6371,
+    "distance": 149600,
+    "orbital_period": 365.2,
+    "rotation_period": 1,
+    "texture": "earth.jpg",
+    "description": "La Terre est la seule planète connue pour abriter la vie. Elle a une atmosphère riche en oxygène et de vastes océans.",
+    "temperature": "15°C (moyenne)",
+    "moons": 1,
+    "type": "rocheuse"
+  },
+  {
+    "name": "mars",
+    "radius": 3389.5,
+    "distance": 227940,
+    "orbital_period": 687,
+    "rotation_period": 1.03,
+    "texture": "mars.jpg",
+    "description": "Mars est souvent appelée la planète rouge à cause de l'oxyde de fer présent à sa surface.",
+    "temperature": "-60°C (moyenne)",
+    "moons": 2,
+    "type": "rocheuse"
+  },
+  {
+    "name": "jupiter",
+    "radius": 69911,
+    "distance": 778547,
+    "orbital_period": 4331.6,
+    "rotation_period": 0.41,
+    "texture": "jupiter.jpg",
+    "description": "Jupiter est la plus grande planète du système solaire. C'est une géante gazeuse avec une grande tache rouge, une tempête massive.",
+    "temperature": "-145°C",
+    "moons": 95,
+    "type": "gazeuse"
+  },
+  {
+    "name": "saturn",
+    "radius": 58232,
+    "distance": 1433449,
+    "orbital_period": 10759.2,
+    "rotation_period": 0.45,
+    "texture": "saturn.jpg",
+    "description": "Saturne est célèbre pour ses anneaux spectaculaires composés de glace et de roche.",
+    "temperature": "-178°C",
+    "moons": 146,
+    "type": "gazeuse"
+  },
+  {
+    "name": "pluto",
+    "radius": 1188.3,
+    "distance": 5906380,
+    "orbital_period": 90560,
+    "rotation_period": 6.39,
+    "texture": "pluto.jpg",
+    "description": "Pluton est une planète naine glacée située dans la ceinture de Kuiper. Elle possède une atmosphère ténue.",
+    "temperature": "-229°C",
+    "moons": 5,
+    "type": "glacée"
+  }
+]
