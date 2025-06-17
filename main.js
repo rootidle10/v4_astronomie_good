@@ -12,7 +12,7 @@ import {
   BackSide,
   AmbientLight
 } from 'three';
-// lumière : 
+// lumière 
 
 import createLight from './systems/light';
 
