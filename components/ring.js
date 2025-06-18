@@ -1,7 +1,7 @@
 import { RingGeometry, MeshBasicMaterial, Mesh, DoubleSide } from 'three';
 
 function createRings(innerRadius, outerRadius) {
-  const geometry = new RingGeometry(innerRadius, outerRadius, 64);
+  const geometry = new RingGeometry(innerRadius, outerRadius, 64);{/*interieur, exteireir, nombre d emotif*/}
   const material = new MeshBasicMaterial({
     color: 0xffffff,
     side: DoubleSide,

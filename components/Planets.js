@@ -15,7 +15,7 @@ export function createPlanet({
   rotationSpeed = 0.01,
 }) {
   const loader = new TextureLoader();
-  const geometry = new SphereGeometry(radius, segments, segments);
+  const geometry = new SphereGeometry(radius, segments, segments);{/*rayon ,segments horizontaux, segments verticaux */}
   const tex = loader.load(texture);
   const material = new MeshPhongMaterial({ map: tex });
 
