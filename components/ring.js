@@ -5,7 +5,6 @@ function createRings(innerRadius, outerRadius) {
   const material = new MeshBasicMaterial({
     color: 0xffffff,
     side: DoubleSide,
-    //transparent: true,
     opacity: 0.5,
   });
   const ring = new Mesh(geometry, material);
