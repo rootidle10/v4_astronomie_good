@@ -96,6 +96,7 @@ function initSystemeSolaire() {
   };
   //ajout la lumière
   scene.add(createLight());
+
   //ajout soleil
   const soleil = new Soleil(1);
   scene.add(soleil);
@@ -177,7 +178,7 @@ renderer.setAnimationLoop(() => { // boucle de rendu continue
   const elapsed = clock.getElapsedTime(); // récupère le temps écoulé depuis le début
 
   if (elapsed < 4) { // si moins de 4 secondes sont passées
-    cylinder.position.z += 0.8; // avance le tunnel pour créer une animation de voyage spatial
+    cylinder.position.z += 0.8; // avance le tunnel 
   }
 
 
